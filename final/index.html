@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NaijaSoundzz | Lagos Nights</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="app-container">
+        
+        <!-- Left Sidebar -->
+        <aside class="sidebar">
+            <div class="logo">
+                <i class="fa-solid fa-wave-square accent-text"></i> NaijaSoundzz
+            </div>
+            
+            <nav class="sidebar-nav">
+                <ul>
+                    <li><a href="#" class="active"><i class="fa-solid fa-house"></i> Home</a></li>
+                    <li><a href="artist.html"><i class="fa-solid fa-microphone-lines"></i> Artists</a></li>
+                    <li><a href="playlist.html"><i class="fa-solid fa-compact-disc"></i> Playlists</a></li>
+                    <li><a href="#"><i class="fa-solid fa-heart"></i> Liked</a></li>
+                </ul>
+            </nav>
+
+            <div class="divider"></div>
+
+            <div class="playlist-section">
+                <h4>YOUR PLAYLISTS</h4>
+                <ul>
+                    <li><a href="#">Lagos Nights Vibe</a></li>
+                    <li><a href="#">Afrobeats 2026</a></li>
+                    <li><a href="#">Gbedu Premium</a></li>
+                    <li><a href="#">Chill Alte</a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-view">
+            
+            <!-- Navbar -->
+            <header class="top-nav">
+                <div class="search-container">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search for artists, songs, or podcasts">
+                </div>
+                <div class="profile">
+                    <img src="https://i.pravatar.cc/100?img=33" alt="User Avatar" class="avatar">
+                </div>
+            </header>
+
+            <!-- Scrollable Content -->
+            <div class="content-scroll">
+                
+                <!-- Hero Section -->
+                <section class="hero">
+                    <div class="hero-content">
+                        <h2 class="tagline">Feel the Rhythm of <br><span class="accent-text">Lagos Nights</span></h2>
+                        <p>Discover the biggest Afrobeats hits and trending street anthems.</p>
+                        <button class="cta-btn">Start Listening</button>
+                    </div>
+                </section>
+
+                <!-- Featured Artists Section -->
+                <section class="featured-artists">
+                    <h3>Featured Artists</h3>
+                    <div class="artist-grid">
+                        <!-- Cards -->
+                        <div class="artist-card">
+                            <div class="img-wrapper">
+                                <img src="images/burnaboy.png" alt="Artist">
+                                <button class="play-hover"><i class="fa-solid fa-play"></i></button>
+                            </div>
+                            <h4>Burna Boy</h4>
+                            <span class="genre">Afrobeats</span>
+                        </div>
+                        <div class="artist-card">
+                            <div class="img-wrapper">
+                                <img src="images/tems.png" alt="Artist">
+                                <button class="play-hover"><i class="fa-solid fa-play"></i></button>
+                            </div>
+                            <h4>Tems</h4>
+                            <span class="genre">R&B / Alte</span>
+                        </div>
+                        <div class="artist-card">
+                            <div class="img-wrapper">
+                                <img src="images/asake.png" alt="Artist">
+                                <button class="play-hover"><i class="fa-solid fa-play"></i></button>
+                            </div>
+                            <h4>Asake</h4>
+                            <span class="genre">Street Pop</span>
+                        </div>
+                        <div class="artist-card">
+                            <div class="img-wrapper">
+                                <img src="images/shallipopi.png" alt="Artist">
+                                <button class="play-hover"><i class="fa-solid fa-play"></i></button>
+                            </div>
+                            <h4>Shallipopi</h4>
+                            <span class="genre">Afropop</span>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Trending Songs Section -->
+                <section class="trending-songs">
+                    <h3>Trending Songs</h3>
+                    <!-- Container for JS Injection -->
+                  <div id="song-list" class="song-list">
+                 <div class="song-row">
+        <div class="song-left">
+            <span class="track-num">1</span>
+            <img src="images/Chanel.png" alt="Cover" class="row-cover">
+            <div class="song-info">
+                <h4>Chanel (feat. Asake)</h4>
+                <p>Blaqbonez, Asake</p>
+            </div>
+        </div>
+        <div class="song-right"><span>3:12</span></div>
+    </div>
+
+    <div class="song-row">
+        <div class="song-left">
+            <span class="track-num">2</span>
+            <img src="images/asake.png" alt="Cover" class="row-cover">
+            <div class="song-info">
+                <h4>Gratitude</h4>
+                <p>Asake</p>
+            </div>
+        </div>
+        <div class="song-right"><span>3:45</span></div>
+    </div>
+
+    <div class="song-row">
+        <div class="song-left">
+            <span class="track-num">3</span>
+            <img src="images/asake.png" alt="Cover" class="row-cover">
+            <div class="song-info">
+                <h4>Forgiveness</h4>
+                <p>Asake</p>
+            </div>
+        </div>
+        <div class="song-right"><span>4:01</span></div>
+    </div>
+
+    <div class="song-row">
+        <div class="song-left">
+            <span class="track-num">4</span>
+            <img src="images/bnxn.png" alt="Cover" class="row-cover">
+            <div class="song-info">
+                <h4>Back Outside</h4>
+                <p>BNXN, Sarz</p>
+            </div>
+        </div>
+        <div class="song-right"><span>3:28</span></div>
+    </div>
+
+    <div class="song-row">
+        <div class="song-left">
+            <span class="track-num">5</span>
+            <img src="images/asake.png" alt="Cover" class="row-cover">
+            <div class="song-info">
+                <h4>MCBH</h4>
+                <p>Asake</p>
+            </div>
+        </div>
+        <div class="song-right"><span>3:55</span></div>
+    </div>
+
+    <div class="song-row">
+        <div class="song-left">
+            <span class="track-num">6</span>
+            <img src="images/asake.png" alt="Cover" class="row-cover">
+            <div class="song-info">
+                <h4>WORSHIP</h4>
+                <p>Asake, DJ Snake</p>
+            </div>
+        </div>
+        <div class="song-right"><span>3:20</span></div>
+    </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <!-- Bottom Music Player -->
+        <footer class="player-bar">
+            <audio id="audio-player"></audio>
+            
+            <div class="player-left">
+                <img id="album-art" src="images/asake.png" alt="Album Art">
+                <div class="track-details">
+                    <p id="song-title">City Boys</p>
+                    <p id="artist-name">Burna Boy</p>
+                </div>
+                <button id="like-btn" class="icon-btn"><i class="fa-regular fa-heart"></i></button>
+            </div>
+
+            <div class="player-center">
+                <div class="controls">
+                    <button class="icon-btn minor-btn"><i class="fa-solid fa-shuffle"></i></button>
+                    <button id="prev-btn" class="icon-btn"><i class="fa-solid fa-backward-step"></i></button>
+                    <button id="play-btn" class="play-btn"><i class="fa-solid fa-play"></i></button>
+                    <button id="next-btn" class="icon-btn"><i class="fa-solid fa-forward-step"></i></button>
+                    <button class="icon-btn minor-btn"><i class="fa-solid fa-repeat"></i></button>
+                </div>
+                <div class="progress-wrapper">
+                    <span class="time">0:00</span>
+                    <input type="range" id="progress-bar" value="0" min="0" max="100">
+                    <span class="time">2:33</span>
+                </div>
+            </div>
+
+            <div class="player-right">
+                <i class="fa-solid fa-volume-high"></i>
+                <input type="range" id="volume-slider" value="80" min="0" max="100">
+            </div>
+        </footer>
+    </div>
+<script src="javapart.js"></script>
+</body>
+</html>
